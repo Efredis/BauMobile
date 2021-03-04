@@ -12,9 +12,9 @@ https://github.com/webdriverio/native-demo- app/releases/download/0.2.1/Android-
 - Navegar entre los tabs: Docs, API, Help, Versions, Blog, Contribute.
 
 
-##Requisitos del sistema:
+## Requisitos del sistema:
 
-###Requerimientos mínimos de hardware y software para configurar entorno.
+### Requerimientos mínimos de hardware y software para configurar entorno.
 - SO: Windows 7 ó posterior.
 - Procesador: Intel from 1.2 GHz ó equivilent AMD family.
 - Memoria: 4 GB de RAM.
@@ -32,7 +32,7 @@ Para ejecutar las pruebas es necesario configurar un entorno que comprende lo si
 - Se requiere descargar e instalar la aplicación Java Platform (JDK) 8u111 / 8u112, desde la web: https://www.oracle.com/technetwork/es/java/javase/downloads/index.html
 - Se requiere configurar las variables de entorno, de la siguiente manera:
 
-###Windows 10 y Windows 8
+### Windows 10 y Windows 8
 - En Buscar, busque y seleccione: Sistema (Panel de control)
 - Haga clic en el enlace Configuración avanzada del sistema.
 - Haga clic en Variables de entorno. En la sección Variables del sistema busque la variable de entorno PATH y selecciónela. Haga clic en Editar. Si no existe la variable de entorno PATH haga clic en Nuevo.
@@ -42,7 +42,7 @@ Para ejecutar las pruebas es necesario configurar un entorno que comprende lo si
 - Haga clic en Aceptar. Cierre todas las demás ventanas haciendo clic en Aceptar.
 - Haga click en el boton de inicio, buscar "CMD" y ejecute el comando: "java -version", esto le traerá la versión del java indicando a su vez que está instalado.
 
-###Windows 7
+### Windows 7
 - Desde el escritorio, haga clic con el botón derecho del mouse en el icono de la computadora.
 - Seleccione Propiedades en el menú contextual.
 - Haga clic en el enlace Configuración avanzada del sistema.
@@ -53,8 +53,10 @@ Para ejecutar las pruebas es necesario configurar un entorno que comprende lo si
 - Haga clic en Aceptar. Cierre todas las demás ventanas haciendo clic en Aceptar.
 - Haga click en el boton de inicio, buscar "CMD" y ejecute el comando: "java -version", esto le traerá la versión del java indicando a su vez que está instalado.
 
-###Ejecutando las pruebas:
+### Ejecutando las pruebas:
+
 Una vez configurado el entorno para las pruebas y descargar el repositorio, se debe realizar lo siguiente para su ejecución: 
+
 - Ejecutamos el emulador y configuramos un dispositivo "Google Nexus 7", arrastramos el archivo .apk hacia el mismo y vamos al siguiente paso.
 - Ejecutamos el eclipse.
 - Clic al menu "File".
@@ -65,7 +67,7 @@ Una vez configurado el entorno para las pruebas y descargar el repositorio, se d
 Luego de todo este procedimiento se ejecutarán las pruebas requeridas.
 
 
-###Otras Consideraciones:
+### Otras Consideraciones:
 - Para usar el emulador e instalar el .apk es necesario cambiar un dato en el REGEDIT.
 En la ruta:
 Computer\HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\Policies\System
