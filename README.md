@@ -4,7 +4,7 @@ Las pruebas automatizadas llamadas "BauMobile" cumple con las siguientes premisa
 A partir de siguiente la APK:
 https://github.com/webdriverio/native-demo- app/releases/download/0.2.1/Android- NativeDemoApp-0.2.1.apk .
 - Sección Login.
-- Realizar Login.  Realizar Signup.
+- Realizar Login. ? Realizar Signup.
 - Sección forms:
 - Completar todos los campos y activar.
 - Sección Webview.
